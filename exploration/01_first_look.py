@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load variables from the .env file
 
-API_URL = "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
+API_URL = "https://data.cityofnewyork.us/resource/erm6-nf8i.json"
 APP_TOKEN = os.getenv("NYC_APP_TOKEN")
 
 params = {
